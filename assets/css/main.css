@@ -3435,10 +3435,10 @@
     padding: 0 2rem 0 0;
     position: fixed;
     top: 4em;
-    left: 6.2em;
+    /*left: 6.2em;*/
     /* z-index: auto; */
     width: 100%;
-    max-width: 72rem;
+    max-width: 100%;
     z-index: 100;
 
 	}
@@ -3538,11 +3538,12 @@
 					}
 
 				#nav ul.links li.active {
-					background-color: #ffffff;
+					/*background-color: #ffffff;*/
+
 				}
 
 					#nav ul.links li.active a {
-						color: #1e252d;
+						color: #fff;
 					}
 
 						#nav ul.links li.active a:hover {
