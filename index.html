@@ -1,165 +1,569 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Portafolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-loading">
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="assets/css/styles.css">
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+        <title>Lía Cubillos - Portafolio</title>
+    </head>
+    <body>
+       
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Lía</a>
 
-				<!-- Intro -->
-					<div id="intro">
-						<h1>Lía Cubillos</h1>
-						<p>Diseñadora UX / Diseñadora Gráfica</p>
-					</div>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class="uil uil-estate nav__icon"></i>
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class="uil uil-user nav__icon"></i>
+                                Sobre mí
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="uil uil-file-alt nav__icon"></i>
+                                Hábilidades técnicas
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#services" class="nav__link">
+                                <i class="uil uil-briefcase nav__icon"></i>
+                                Servicios
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#portfolio" class="nav__link">
+                                <i class="uil uil-scenery nav__icon"></i>
+                                Portafolio
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class="uil uil-message nav__icon"></i>
+                                Contacto
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                </div>
+                <div class="nav__btns">
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="#wrapper">Inicio</a></li>
-							<li class="active"><a href="#about">Sobre mí</a></li>
-							<li class="active"><a href="#skills">Habilidades técnicas</a></li>
-							<li class="active"><a href="#works">Trabajos</a></li>
-							<li class="active"><a href="#footer">Contacto</a></li>
-						</ul>
-						<ul class="icons">
-							<li><a href="https://github.com/cubillosarteaga" class="icon fa-github"><span class="label">Github</span></a></li>
-							<li><a href="www.linkedin.com/in/liacubillos" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
-						</ul>
-					</nav>
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__content grid">
+                        <div class="home__social">
+                            <a href="www.linkedin.com/in/liacubillos" target="_blank" class="home__social-icon">
+                                <i class="uil uil-linkedin-alt"></i>
+                            </a>
 
-				<!-- Main -->
-					<div id="main">
+                            <a href="" target="_blank" class="home__social-icon">
+                                <i class="uil uil-dribbble"></i>
+                            </a>
 
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major" id="about">
-									<span class="date">2022</span>
-									<h2 id="aboutt">Sobre mí<br /></h2>
-									<p><span class="image left"><img src="images/lia2.png" alt="" /></span>Desde que apareció el diseño en mi vida, la observación y la creatividad se han convertido en herramientas esenciales y que se han quedado arraigadas en mi día a día.
-									Así con la experiencia adquirida he ido aprendiendo a ser responsable y a desarrollar capacidades de adaptación con lo que se me ha facilitado el trabajar en equipo y respetar las opiniones de los de más.
-									Autodidacta, proactiva, me interesa estar aprendiendo cosas nuevas que puedan aportar tanto a mi crecimiento personal como profesional.
-									Me gusta conocer y compartir con gente nueva, aprender de ellas y por medio de la empatía poder ayudarlos a resolver sus problemas. También me interesa todo lo que tenga que ver con lo visual, jugar con los colores, las formas, tipografías, etc. En mi tiempo libre aprovecho para seguir alimentando mi lado creativo a través de la pintura. Si quieres conocer aún más de mí te invito a revisar el siguiente enlace.</p>
-									<a href="cv.html" class="button">CV</a>
-								</header>
-								</article>
-									<article class="post featured" id="skills">
-										<header class="major">
-											<h2>Habilidades Técnicas<br /></h2>
-											<div class="row">
-												<div class="4u 12u$(small)">
-													<h3>UX Design</h3>
-														<ul class="alt">
-															<li>Marvel</li>
-															<li>Adobe XD</li>
-															<li>Figma</li>
-														</ul>
-												</div>
-												<div class="4u 12u$(small)">
-												<h3>Front-End</h3>
-													<ul class="alt">
-														
-														<li>Html</li>
-														<li>CSS</li>
-														<li>Javascript</li>
-														<li>Jquery</li>
-														
-													</ul>
-												</div>
-											<div class="4u 12u$(small)">
-											<h3>Diseño Gráfico</h3>
-												<ul class="alt">
-													<li>Illustrator</li>
-													<li>Photoshop</li>
-													<li>Indesign</li>
-												</ul>
-											</div>
-										</div>
-								</header>
-							</article>
+                            <a href="https://github.com/cubillosarteaga" target="_blank" class="home__social-icon">
+                                <i class="uil uil-github-alt"></i>
+                            </a>
+                        </div>
+                        <div class="home__img">
+                            <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <mask id="mask0" mask-type="alpha">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                    <image class="home__blob-img" href="assets/img/about-0.png"/>
+                            </g>
+                        </svg>
 
-						<!-- Posts -->
-							<section class="posts" id="works">
-								
-								<article>
+                        </div>
+                        <div class="home__data">
+                            <h1 class="home__title">Hola, soy Lía</h1>
+                            <h3 class="home__subtitle">Frontend Developer</h3>
+                            <p class="home__description">Diseñadora gráfica - Ux/Ui</p>
+                            <a href="#contact" class="button button--flex">
+                                Contáctame
+                            
+                            <i class="uil uil-message button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-button button--flex"><i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                            <span class="home__scroll-name">Scroll down</span>
+                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
 
-									<header>
-										<span class="date">UX Design</span>
-										<h2><a href="#">Banca Millennials<br /></a></h2>
-									</header>
-									<a href="banca.html" class="image fit"><img src="images/home.png" alt="" /></a>
-									<p>Banca Millennials es una plataforma digital sencilla y rápida, dirigida a los jóvenes millennials. </p>
-									<ul class="actions">
-										<li><a href="banca.html" class="button">Ver más</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">UX Design</span>
-										<h2><a href="#">I.P ARCOS<br /></a></h2>
-									</header>
-									<a href="arcos.html" class="image fit"><img src="images/ima1.png" alt="" /></a>
-									<p>Investigación acerca del proceso de carga académica, del Instituto Profesional ARCOS.</p>
-									<ul class="actions">
-										<li><a href="arcos.html" class="button">Ver más</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">UX Design/Front End</span>
-										<h2><a href="#">Style Guide<br /></a></h2>
-									</header>
-									<a href="guide.html" class="image fit"><img src="images/print1.jpg" alt="" /></a>
-									<p>Crear un styleguide de componentes para Laboratoria utilizando el nuevo branding.</p>
-									<ul class="actions">
-										<li><a href="guide.html" class="button">Ver más</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">UX Design/Front End</span>
-										<h2><a href="#">Genesis<br /></a></h2>
-									</header>
-									<a href="genesis.html" class="image fit"><img src="images/gene.jpg" alt="" /></a>
-									<p>Página para que los usuarios puedan hacer una investigación antes de decidir que película ver.</p>
-									<ul class="actions">
-										<li><a href="genesis.html" class="button">Ver más</a></li>
-									</ul>
-								</article>
-								
-							</section>
-							
-						
-						
-					</div>
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+              <h2 class="section__title">Sobre Mí</h2> 
+              <span class="section__subtitle">Mi introducción</span>
+              <div class="about__container container grid">
+                  <img src="assets/img/about-1.png" class="about__img">
+                  <div class="about__data">
+                      <p class="about__description">
+                          Desde que apareció el diseño en mi vida, la observación y la creatividad se han convertido en herramientas esenciales y que se han quedado arraigadas en mi día a día. Así con la experiencia adquirida he ido aprendiendo a ser responsable y a desarrollar capacidades de adaptación con lo que se me ha facilitado el trabajar en equipo y respetar las opiniones de los de más.
+                      </p>
+                      <div class="about__info">
+                          <div>
+                              <span class="about__info-title">05+</span>
+                              <span class="about__info-name">
+                                  años <br> experiencia
+                              </span>
 
-				<!-- Footer -->
-					<footer id="footer">
-							<section>
-								<h3>Email</h3>
-								<p><a href="#">cubilloslia@gmail.com</a></p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									<li><a href="https://github.com/cubillosarteaga" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
-									<li><a href="www.linkedin.com/in/liacubillos" class="icon alt fa-linkedin"><span class="label">Linkedin</span></a></li>
-								</ul>
-							</section>
-						</section>
-					</footer>
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+                          </div>
+                          <div>
+                              <span class="about__info-title">20+</span>
+                              <span class="about__info-name">
+                                  Proyectos <br> completados
+                              </span>
+                              
+                          </div>
+                        
+                      </div>
+                      <div class="about__buttons">
+                          <a download="" href="assets/pdf/lia-cv-2023.pdf" class="button button--flex" target="_blank">Descargar CV <i class="uil uil-download-alt button__icon"></i></a>
+                      </div>
+                  </div>
+              </div>
+            </section>
 
-	</body>
+            <!--==================== SKILLS ====================-->
+            <section class="skills section" id="skills">
+                <h2 class="section__title">Skills</h2>
+                <span class="section__subtitle">My technical level</span>
+                <div class="skills__container container grid">
+                    <div>
+
+                        <!--==================== SKILLS 1====================-->
+                        <div class="skills__content skills__open">
+                            <div class="skills__header">
+                                <i class="uil uil-brackets-curly skills__icon"></i>
+                                <div>
+                                    <h1 class="skills__title">Frontend developer</h1>
+                                    <span class="skills__subtitle">More than 4 years</span>
+
+                                </div>
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">HTML</h3>
+                                        <span class="skills__number">90%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__html"></span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">CSS</h3>
+                                        <span class="skills__number">80%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__css"></span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">JavaScript</h3>
+                                        <span class="skills__number">30%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__js"></span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Tailwind</h3>
+                                        <span class="skills__number">60%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__tai"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--==================== SKILLS 2====================-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-swatchbook skills__icon"></i>
+                                <div>
+                                    <h1 class="skills__title">Diseño Gráfico</h1>
+                                    <span class="skills__subtitle">Más de 5 años</span>
+
+                                </div>
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Photoshop</h3>
+                                        <span class="skills__number">90%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__ps"></span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Illustrator</h3>
+                                        <span class="skills__number">90%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__ai"></span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Adobe XD</h3>
+                                        <span class="skills__number">50%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__xd"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== QUALIFICATION ====================
+            <section class="qualification section">
+
+            </section>-->
+            <!--==================== SERVICES ====================-->
+            <section class="services section" id="services">
+                <h2 class="section__title">Servicios</h2>
+                <span class="section__subtitle">Qué ofrezco</span>
+                <div class="services__container container grid">
+                    <!--==================== SERVICES 1 ====================-->
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-web-grid services__icon"></i>
+                            <h3 class="services__title">Ui/Ux <br> Designer</h3>
+                        </div>
+                        <span class="button button--flex button--small button--link services__button">
+                            Ver Más
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">Ui/Ux <br> Designer</h4>
+                                <i class="uil uil-times services__modal-close"></i>
+
+                                <ul class="services__modal-services grid">
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Web page development</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>I create ux elements interface</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>I developer the user interface</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>I developer the user interface</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--==================== SERVICES 2 ====================-->
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-arrow services__icon"></i>
+                            <h3 class="services__title">Frontend <br> Developer</h3>
+                        </div>
+                        <span class="button button--flex button--small button--link services__button">
+                            Ver Más
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">Frontend <br> Developer</h4>
+                                <i class="uil uil-times services__modal-close"></i>
+
+                                <ul class="services__modal-services grid">
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Web page development</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>I create ux elements interface</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>I developer the user interface</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>I developer the user interface</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--==================== SERVICES 3 ====================-->
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-swatchbook services__icon"></i>
+                            <h3 class="services__title">Graphic <br> Designer</h3>
+                        </div>
+                        <span class="button button--flex button--small button--link services__button">
+                            Ver Más
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">Ui/Ux <br> Designer</h4>
+                                <i class="uil uil-times services__modal-close"></i>
+
+                                <ul class="services__modal-services grid">
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Web page development</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>I create ux elements interface</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>I developer the user interface</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>I developer the user interface</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </section>
+
+            <!--==================== PORTFOLIO ====================-->
+            <section class="portfolio section" id="portfolio">
+                <h2 class="section__title">Portafolio</h2>
+                <span class="section__subtitle">Trabajos más recientes</span>
+                <div class="portfolio__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!--==================== PORTFOLIO 1 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/boleta-inteligente.png" class="portfolio__img">
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">
+                                    Boleta inteligente - Gasco
+                                </h3>
+                                <p class="portfolio__description">
+                                    Formulario de concurso, para incentivar el registro de boleta electrónica. 
+                                </p>
+                                <a href="https://boletainteligente.gasco.cl/" class="button button--flex button--small portfolio__button" target="_blank">Demo
+                                <i class="uil uil-arrow-right button__icon"></i></a>
+
+                            </div>
+                        </div>
+                        <!--==================== PORTFOLIO 2 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/midea-incentivo-form.png" class="portfolio__img">
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">
+                                    Midea Puntos
+                                </h3>
+                                <p class="portfolio__description">
+                                    Landing informativo y formulario de incripción para acumulación de puntos. 
+                                </p>
+                                <a href="midea-incentivo.html" class="button button--flex button--small portfolio__button" target="_blank">Demo
+                                <i class="uil uil-arrow-right button__icon"></i></a>
+
+                            </div>
+                        </div>
+                        <!--==================== PORTFOLIO 3 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/jetour-p.png" class="portfolio__img">
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">
+                                    Jetour
+                                </h3>
+                                <p class="portfolio__description">
+                                    Landing informativo para nuevo modelo de camioneta X70 Plus. 
+                                </p>
+                                <a href="jetour.html" class="button button--flex button--small portfolio__button" target="_blank">Demo
+                                <i class="uil uil-arrow-right button__icon"></i></a>
+
+                            </div>
+                        </div>
+                        <!--==================== PORTFOLIO 4 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/spacio-1portada.png" class="portfolio__img">
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">
+                                    Spacio 1
+                                </h3>
+                                <p class="portfolio__description">
+                                    Formulario para participar por una giftcard. 
+                                </p>
+                                <a href="spacio1.html" class="button button--flex button--small portfolio__button">Ver más
+                                <i class="uil uil-arrow-right button__icon"></i></a>
+
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                    </div>
+    <div class="swiper-button-prev">
+        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+    </div>
+
+    <div class="swiper-pagination"></div>
+  </div>
+                </div>
+            </section>
+
+            <!--==================== PROJECT IN MIND ====================
+            <section class="project section">
+
+            </section>-->
+
+            <!--==================== TESTIMONIAL ====================
+            <section class="testimonial section">
+                
+            </section>-->
+
+            <!--==================== CONTACT ME ====================-->
+            <section class="contact section" id="contact">
+                <h2 class="section__title">
+                    Contáctame
+                </h2>
+                <span class="section__subtitle">Get in touch</span>
+
+                <div class="contact__container container grid">
+                    <div>
+                        <div class="contact__information">
+                            <i class="uil uil-phone contact__icon"></i>
+                            <div>
+                                <h3 class="contact__title">Llámame</h3>
+                                <span class="contact__subtitle">+56 9 58237017</span>
+                            </div>
+                        </div>
+                        <div class="contact__information">
+                            <i class="uil uil-envelope contact__icon"></i>
+                            <div>
+                                <h3 class="contact__title">Email</h3>
+                                <span class="contact__subtitle">cubilloslia@gmail.com</span>
+                            </div>
+                        </div>
+                        <div class="contact__information">
+                            <i class="uil uil-map-marker contact__icon"></i>
+                            <div>
+                                <h3 class="contact__title">Ubicación</h3>
+                                <span class="contact__subtitle">Santiago - Recoleta</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                        <h1 class="footer__title">Lía</h1>
+                        <span class="footer__subtitle">Frontend Developer</span>
+                    </div>
+                
+                <ul class="footer__links">
+                    <li>
+                        <a href="#services" class="footer__link">
+                            Servicios
+
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="footer__link">
+                        Portafolio
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer__link">
+                        Contacto
+                        </a>
+                    </li>
+                </ul>
+                <div class="footer__socials">
+                    <a class="footer__social">
+                        <i class="uil uil-envelope"></i>
+                    </a>
+                    <a class="footer__social">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+                    <a class="footer__social">
+                        <i class="uil uil-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        </footer>
+        
+        <!--==================== SCROLL TOP ====================-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
+
+        <!--==================== SWIPER JS ====================-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--==================== MAIN JS ====================-->
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
